@@ -1,0 +1,147 @@
+*{
+  word-wrap: break-word;
+}
+header {
+    
+    padding: 5px;
+    color: #771010;
+    text-align: center;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+}
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(212, 208, 208);
+  }
+
+  nav {
+    background-color: rgb(230, 114, 216);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    position: absolute;
+    top:0;
+    width: 100%;
+    padding: 5px;
+}
+ 
+nav ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration:none;
+  font-size: 1.2rem;
+}
+
+  h1 {
+    color: #333;
+  }
+
+  #home{
+    padding: 10px;
+    background-color: #dbc4c4;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color: #221717;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    
+  }
+
+  #About_us {
+  padding: 10px;
+  background-color:#dbc4c4;
+  justify-content: center;
+  height: 88vh;
+  }
+
+  .service{
+    width: 400px;
+    height:400px;
+    display: inline-block;
+ }
+
+  #Services{
+    background-color: #dbc4c4;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  #Services h3{
+    margin-bottom: 2rem;
+     }
+
+  .service img{
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 20px 55px 15px 55px;
+    margin-left: 10px;
+ }
+
+
+
+  #Blog{
+    background-color: #dbc4c4;
+    padding: 10px;
+  
+    height: 100vh;
+    word-wrap
+    
+
+  }
+
+  #contact{
+   background-color: #dbc4c4 ;
+   aspect-ratio : 5;
+    
+  }
+
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  
+  
